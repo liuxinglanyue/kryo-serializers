@@ -27,7 +27,6 @@ import com.esotericsoftware.kryo.serializers.CompatibleFieldSerializer;
  * 
  * @author <a href="mailto:martin.grotzke@javakaffee.de">Martin Grotzke</a>
  */
-@SuppressWarnings("restriction")
 public class CompatibleFieldSerializerReflectionFactorySupport extends CompatibleFieldSerializer<Object> {
 
     /**

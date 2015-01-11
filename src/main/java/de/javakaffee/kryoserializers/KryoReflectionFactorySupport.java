@@ -32,7 +32,6 @@ import com.esotericsoftware.kryo.serializers.FieldSerializer;
  * 
  * @author <a href="mailto:martin.grotzke@javakaffee.de">Martin Grotzke</a>
  */
-@SuppressWarnings("restriction")
 public class KryoReflectionFactorySupport extends Kryo {
 
     private static final ReflectionFactory REFLECTION_FACTORY = ReflectionFactory.getReflectionFactory();
